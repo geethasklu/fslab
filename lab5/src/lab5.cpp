@@ -7,6 +7,8 @@
 //============================================================================
 
 #include <iostream>
+#include "RF.h"
+#include "SF.h"
 using namespace std;
 
 int main() {
