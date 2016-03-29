@@ -12,13 +12,13 @@ using namespace std;
 int main() {
 	string key;
 	cout<<"key to search";
-RF s("gita","12");
-SF  f("data.txt");
+RF s("gita","12");  //student class
+SF  f("data.txt");  //String ==Recording file
 f.write(s.pack());
 f.read(key);
 f.delet(key);
 }
 
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	//cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	return 0;
 }
