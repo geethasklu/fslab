@@ -12,8 +12,8 @@ using namespace std;
 int main() {
 	string key;
 	cout<<"key to search";
-Student s("gita","12");
-RF  f("data.txt");
+RF s("gita","12");
+SF  f("data.txt");
 f.write(s.pack());
 f.read(key);
 f.delet(key);
