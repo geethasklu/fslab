@@ -4,8 +4,8 @@ int main()
     int choice,i,k;
     string buffer,key;
     student s;
-    file f;
-    indf ind;
+    RF f;
+    IF ind;
     while(1)
     {
     cout<<"1) add\n2) search\n3)delete\n------------\nEnter your choice : ";
